@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style.css" type="text/css"  />
+    <title>Word game</title>
+  </head>
+  <body>
+    <div class="game-container">
+    <h1>Hangman</h1>
+    <p>find the hidden word - Enter a letter</p>
+    <svg height="250" width="200" class="figure-container">
+      <!--rod-->
+      <line x1="60" y1="20" x2 ="140" y2="20" />
+      <line x1="140" y1="20" x2 ="140" y2="50" />
+      <line x1="60" y1="20" x2 ="60" y2="230" />
+      <line x1="20" y1="230" x2 ="100" y2="230" />
+                <!--body-->
+     <circle cx="140" cy="70" r="20" class="figure-part"></circle>
+     <line x1="140" y1="90" x2 ="140" y2="150" class="figure-part" ></line>
+     <line x1="140" y1="120" x2 ="120" y2="100" class="figure-part"></line>
+     <line x1="140" y1="120" x2 ="160" y2="100" class="figure-part"></line>
+     <line x1="140" y1="150" x2 ="120" y2="180" class="figure-part"></line>
+     <line x1="140" y1="150" x2 ="160" y2="180" class="figure-part"></line>
+    </svg>
+ <div class="wrong-letters-container">
+   <div id="wrong-letters">
+   
+   </div>
+  </div>
+  <div class="word" id="word">
+
+  </div>
+
+</div>
+ <!--massage container-->
+ <div class="popup-container" id="popup-container">
+   <div class="popup" id="popup">
+     <h2 id= final-massage></h2>
+     <button id="button">Play Again</button>
+   </div>
+ </div>
+ <div class="notification-popup-container" id="notification-container">
+   <p>you already entered that word</p>  
+ </div>
+<script src="app.js"></script>
+  </body>
+</html>

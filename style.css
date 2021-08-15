@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #34495e;
+  color: white;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  margin: 0;
+  overflow: hidden;
+}
+.game-container{
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 450px;
+}
+h1{
+  margin:20px 0 0;
+}
+.figure-container{
+  fill: transparent;
+  stroke: white;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  
+}
+.figure-part{
+  display: none;
+}
+.wrong-letters-container{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  
+}
+.wrong-letters-container p{
+  margin: 0 0 5px;
+}
+.wrong-letters-container span{
+  font-size: 24px;
+}
+.word{
+  display: flex;
+  position: absolute;
+  bottom:1px;
+  left:50%;
+  transform: translatex(-50%);
+}
+.letters{
+  border-bottom:3px solid #2980b9 ;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+.popup-container{
+  background-color: rgba( 0, 0, 0, 0.3);
+  position:fixed;
+  top: 0;
+  right:0;
+  left: 0;
+  bottom:0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.popup{
+  background-color: #2980b9;
+  border-radius: 5px;
+  box-shadow: 0 15px 3px rgba(0,0,0,0.1);
+  padding: 50px;
+  text-align: center;
+}
+.popup button {
+  cursor: pointer;
+  background-color: white;
+  color: #2980b9;
+  border:0;
+  margin-top:20px;
+  padding: 12px 20px;
+  font-size: 16px;
+  outline: none;
+}
+.popup button:active{
+  transform: scale(0.96);
+}
+.notification-popup-container{
+  background-color: rgba(0, 0, 0, 0.3);
+ border-radius: 10px 10px 0 0;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: -1000px;
+  transition: transform 0.3 ease-in-out;
+}
+.notification-popup-container p{
+  margin: 0;
+}
+.notification-popup-container.show{
+  transform: translateY(-1000px);
+}
+
+
+@media screen and (max-width: 480px) {
+  body{
+    width: 450px;
+    height:600px;
+    overflow-y: hidden;
+  }
+   .notification-popup-container{
+     width: 220px;
+   }
+  .notification-popup-container.show{
+    transform: translateY(-650px);
+  }
+}
