@@ -23,11 +23,7 @@ Overall, this version of Hangman is a fun and challenging way to test your vocab
 
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="400" height="200">
 </div>
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
+
 
 
 ## Demo
