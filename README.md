@@ -13,15 +13,9 @@ Overall, this version of Hangman is a fun and challenging way to test your vocab
 
 ## Screenshots
 <div class="image-grid">
-<span>
-intro
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="400" height="300">
-</span>
 
-<span>
-wrong enter letter
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/wrong-letter.png" alt="wrong enter letter" width="400" height="300">
-</span>
 
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/message-popup.png" alt="popup-message" width="400" height="300">
 
