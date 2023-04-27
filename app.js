@@ -117,7 +117,7 @@ window.addEventListener("keydown", (e) => {
   }
 });
 
-//playbutton listener
+//playbutton listener for resting the game once player hit play again
 playbutton.addEventListener("click", () => {
   //deleting intial cotebt present in correctletter and worngletter array
   correctletter.splice(0);
