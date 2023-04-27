@@ -28,7 +28,7 @@ let correctletter = [];
 //arrey to collect all wrong letters
 let worngletter = [];
 
-//display function user input key display
+//function to render correct letter to its respect area start here
 function displayword() {
   //correct word display
   word.innerHTML = `${selectedword
@@ -49,8 +49,9 @@ function displayword() {
     popupcntner.style.display = "flex";
   }
 }
+//function to render correct letter to its respect area ends here
 
-// wrong letter update function
+//function to render wrong letter to its respect area starts here
 function updateWrongLetter() {
   //wrong letter display
   wrongltr.innerHTML = `${worngletter.length > 0 ? "<p>wrong letter</p>" : ""}
@@ -66,6 +67,7 @@ function updateWrongLetter() {
       part.style.display = "none";
     }
   });
+  //function to render wrong letter to its respect area ends here
 
   //lose check
   if (worngletter.length === figureparts.length) {
