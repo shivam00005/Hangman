@@ -8,10 +8,18 @@ const playbutton = document.getElementById("button");
 const finalmsg = document.getElementById("final-massage");
 const figureparts = document.querySelectorAll(".figure-part");
 
-//new array of words of game
-const words = ["application", "programming", "interface", "wizard"];
+//word array for the game
+const words = [
+  "application",
+  "programming",
+  "interface",
+  "wizard",
+  "hangmen",
+  "internet",
+  "weather",
+];
 
-// render word of game
+// selecting rander word from above word list
 let selectedword = words[Math.floor(Math.random() * words.length)];
 
 //new array for correct  letters input
