@@ -10,31 +10,28 @@ The player has five chances to guess the word correctly before the hanging man i
 Additionally, the game includes pop-ups that inform the player when they have selected a letter that has already been guessed, as well as a pop-up message indicating that the game is over when the player has used all five guesses.
 
 Overall, this version of Hangman is a fun and challenging way to test your vocabulary and guessing skills. With its easy-to-use interface and engaging graphics, players of all ages are sure to enjoy this classic game.
+
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="400" height="200">
 Game intro
+<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="400" height="200">
 
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/wrong-letter.png" alt="wrong enter letter" width="400" height="200">
 key hit
+<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/wrong-letter.png" alt="wrong enter letter" width="400" height="200">
 
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/message-popup.png" alt="popup-message" width="400" height="200">
 Popup-message
+<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/message-popup.png" alt="popup-message" width="400" height="200">
 
-<img src="https://https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/game-lost.png" alt="game lost" width="400" height="200">
 Game lost
+<img src="https://https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/game-lost.png" alt="game lost" width="400" height="200">
 
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="400" height="200">
 Game win
-
+<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="400" height="200">
 
 
 ## Demo
 
 Live link to play this game : https://shivam00005.github.io/Hangman/
-
-
-
 
 ## Installation
 
@@ -72,6 +69,8 @@ To deploy this project run
 
 ◉ The game should load in your browser and you can start playing.
 
-Note: To deploy the game live, you will need a registered domain name, DNS settings configured properly and web hosting account setup. There are many options available for web hosting services such as shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements and budget.
+Note: To deploy the game live, you will need a registered domain name, DNS settings configured properly and web hosting account
+setup. There are many options available for web hosting services such as shared hosting, VPS hosting or cloud hosting etc. Choose
+the one that suits your requirements and budget.
 
 ```
