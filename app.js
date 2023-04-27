@@ -67,7 +67,6 @@ function updateWrongLetter() {
       part.style.display = "none";
     }
   });
-  //function to render wrong letter to its respect area ends here
 
   //lose check
   if (worngletter.length === figureparts.length) {
@@ -75,8 +74,9 @@ function updateWrongLetter() {
     popupcntner.style.display = "flex";
   }
 }
+//function to render wrong letter to its respect area ends here
 
-// notify function //already entered many times
+// notify function for already entered many times
 function showNotification() {
   //adding show class to notification-container
   notifycntner.classList.add("show");
