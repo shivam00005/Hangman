@@ -12,21 +12,22 @@ Additionally, the game includes pop-ups that inform the player when they have se
 Overall, this version of Hangman is a fun and challenging way to test your vocabulary and guessing skills. With its easy-to-use interface and engaging graphics, players of all ages are sure to enjoy this classic game.
 
 ## Screenshots
-
-Game intro
+<div class="image-grid">
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="400" height="200">
 
-key hit
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/wrong-letter.png" alt="wrong enter letter" width="400" height="200">
 
-Popup-message
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/message-popup.png" alt="popup-message" width="400" height="200">
 
-Game lost
-<img src="https://https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/game-lost.png" alt="game lost" width="400" height="200">
+<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/game-lost.png" alt="game lost" width="400" height="200">
 
-Game win
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="400" height="200">
+</div>
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
 
 
 ## Demo
