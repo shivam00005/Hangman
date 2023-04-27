@@ -86,7 +86,7 @@ function showNotification() {
   }, 2000);
 }
 
-//window event listener
+//window event listener to listen for key down event
 window.addEventListener("keydown", (e) => {
   //pressed small a to z key code
   if (e.keyCode >= 60 && e.keyCode <= 90) {
