@@ -22,10 +22,10 @@ const words = [
 // selecting rander word from above word list
 let selectedword = words[Math.floor(Math.random() * words.length)];
 
-//new array for correct  letters input
+//array to collect all correct letters
 let correctletter = [];
 
-//new array wrong letter input
+//arrey to collect all wrong letters
 let worngletter = [];
 
 //display function user input key display
