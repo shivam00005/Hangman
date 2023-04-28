@@ -67,13 +67,8 @@ To deploy this project run
 
 ◉ The game should load in your browser and you can start playing.
 
-:loudspeaker: Note: To deploy the game live, you will need a registered domain name, DNS settings 
-configured properly and web hosting account setup. There are many options available for web hosting
-services such as shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements
-and budget.
-
 ```
-
+📢 Note: To deploy the game live, you will need a registered domain name, DNS settings configured properly and web hosting account setup. There are many options available for web hosting services such as shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements and budget.
 
 ## :email:Feedback
 
