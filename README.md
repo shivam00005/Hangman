@@ -24,7 +24,8 @@ Overall, this version of Hangman is a fun and challenging way to test your vocab
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="410" height="250">
 </div>
 
-## Demo
+
+## :information_desk_person:Demo
 
 Live link to play this game : https://shivam00005.github.io/Hangman/
 
@@ -47,6 +48,7 @@ To deploy this project run
 
 ```
     
+    
 ## :computer:Deployment
 
 ❖ Live deployment:
@@ -65,15 +67,18 @@ To deploy this project run
 
 ◉ The game should load in your browser and you can start playing.
 
-:loudspeaker: Note: To deploy the game live, you will need a registered domain name, DNS settings configured
-properly and web hosting account setup. There are many options available for web hosting services such as 
-shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements and budget.
+:loudspeaker: Note: To deploy the game live, you will need a registered domain name, DNS settings 
+configured properly and web hosting account setup. There are many options available for web hosting
+services such as shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements
+and budget.
 
 ```
+
 
 ## :email:Feedback
 
 If you have any feedback, please reach out to us at sharmn6395960@gmail.com
+
 
 ## :scroll:License
 
