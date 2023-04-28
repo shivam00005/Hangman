@@ -1,5 +1,5 @@
 
-# Hangman Game
+ :video_game: # Hangman Game Why :question: & How :exclamation:
 
 Hangman is a classic word-guessing game that has been enjoyed for decades. This particular version of the game has been developed using HTML, CSS, and Vanilla Javascript, and is designed to be played by one player. The aim of the game is for the player to correctly guess a random word within a limited number of guesses in order to save the life of a hanging man.
 
@@ -11,7 +11,7 @@ Additionally, the game includes pop-ups that inform the player when they have se
 
 Overall, this version of Hangman is a fun and challenging way to test your vocabulary and guessing skills. With its easy-to-use interface and engaging graphics, players of all ages are sure to enjoy this classic game.
 
-## Screenshots
+ :camera: ## Screenshots
 <div class="image-grid">
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="410" height="250">
 
@@ -24,13 +24,11 @@ Overall, this version of Hangman is a fun and challenging way to test your vocab
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="410" height="250">
 </div>
 
-
-
 ## Demo
 
 Live link to play this game : https://shivam00005.github.io/Hangman/
 
-## Installation
+:wrench: ## Installation
 
 ❖ Local Installation:
 
@@ -49,14 +47,15 @@ To deploy this project run
 
 ```
     
-## Deployment
+:computer: ## Deployment
 
 ❖ Live deployment:
 
 ```bash
 ◉ Host the project files on a web server or web hosting service.
 
-◉ Ensure that the server meets the minimum requirements for the game, such as supporting HTML, CSS, and JavaScript.
+◉ Ensure that the server meets the minimum requirements for the game, such as supporting HTML, CSS,
+   and JavaScript.
 
 ◉ Upload the project files to the server using an FTP client or any other file transfer protocol.
 
@@ -66,8 +65,20 @@ To deploy this project run
 
 ◉ The game should load in your browser and you can start playing.
 
-Note: To deploy the game live, you will need a registered domain name, DNS settings configured properly and web hosting account
-setup. There are many options available for web hosting services such as shared hosting, VPS hosting or cloud hosting etc. Choose
-the one that suits your requirements and budget.
+:loudspeaker: Note: To deploy the game live, you will need a registered domain name, DNS settings configured
+properly and web hosting account setup. There are many options available for web hosting services such as 
+shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements and budget.
 
 ```
+
+ :email: ## Feedback
+
+If you have any feedback, please reach out to us at sharmn6395960@gmail.com
+
+
+:scroll: ## License
+
+Copyright (c) 2021 Shivam Sharma
+
+Licensed under the MIT License, available here: https://github.com/shivam00005/Hangman/blob/master/LICENSE
+
