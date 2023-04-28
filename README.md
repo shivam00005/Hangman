@@ -1,5 +1,5 @@
 
- :video_game: # Hangman Game Why :question: & How :exclamation:
+#  :video_game:Hangman Game Why:question: & How:exclamation:
 
 Hangman is a classic word-guessing game that has been enjoyed for decades. This particular version of the game has been developed using HTML, CSS, and Vanilla Javascript, and is designed to be played by one player. The aim of the game is for the player to correctly guess a random word within a limited number of guesses in order to save the life of a hanging man.
 
@@ -11,7 +11,7 @@ Additionally, the game includes pop-ups that inform the player when they have se
 
 Overall, this version of Hangman is a fun and challenging way to test your vocabulary and guessing skills. With its easy-to-use interface and engaging graphics, players of all ages are sure to enjoy this classic game.
 
- :camera: ## Screenshots
+## :camera:Screenshots
 <div class="image-grid">
 <img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="410" height="250">
 
@@ -28,7 +28,7 @@ Overall, this version of Hangman is a fun and challenging way to test your vocab
 
 Live link to play this game : https://shivam00005.github.io/Hangman/
 
-:wrench: ## Installation
+## :wrench:Installation
 
 ❖ Local Installation:
 
@@ -47,7 +47,7 @@ To deploy this project run
 
 ```
     
-:computer: ## Deployment
+## :computer:Deployment
 
 ❖ Live deployment:
 
@@ -71,12 +71,11 @@ shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your
 
 ```
 
- :email: ## Feedback
+## :email:Feedback
 
 If you have any feedback, please reach out to us at sharmn6395960@gmail.com
 
-
-:scroll: ## License
+## :scroll:License
 
 Copyright (c) 2021 Shivam Sharma
 
