@@ -86,4 +86,4 @@ If you have any feedback, please reach out to us at sharmn6395960@gmail.com
 
 Copyright (c) 2022 Shivam Sharma
 
-Licensed under the MIT License, available here: https://github.com/shivam00005/tesla-clone/blob/main/LICENSE
+Licensed under the MIT License, available here: https://github.com/shivam00005/Hangman/blob/master/LICENSE
