@@ -1,55 +1,42 @@
 
-#  :video_game:Hangman Game Why:question: & How:exclamation:
+# :computer: Snake Game
 
-Hangman is a classic word-guessing game that has been enjoyed for decades. This particular version of the game has been developed using HTML, CSS, and Vanilla Javascript, and is designed to be played by one player. The aim of the game is for the player to correctly guess a random word within a limited number of guesses in order to save the life of a hanging man.
+The Snake Game is a classic arcade game that has been enjoyed by generations of players. The objective of the game is to control a snake and help it eat as many food items as possible without crashing into walls or its own body. The game is simple to understand, but challenging to master, and requires quick reflexes and strategic thinking.
 
-When the game begins, the player is presented with a blank space for each letter in the randomly selected word. The player can then choose a letter by clicking on the corresponding letter button displayed on the screen. If the letter is part of the word, it will be displayed in the correct blank space. If the letter is not part of the word, a part of the hanging man will be added to the display, indicating that the player has made an incorrect guess.
+The Snake Game user interface is a web-based implementation of this classic game using HTML, CSS, and pure JavaScript. The game interface consists of a playing area with a snake and food items. The player can control the snake using the arrow keys on their keyboard. As the snake eats more food items, its length increases, making the game more challenging. If the snake touches the border of the playing area or its own body, the game ends, and a popup appears with an option to play again.
 
-The player has five chances to guess the word correctly before the hanging man is completely drawn, at which point the game is over. If the player correctly guesses the word within the five attempts, they win the game.
+The Snake Game is an excellent example of a simple yet entertaining game created using web technologies. The game's implementation is a testament to the versatility of web development and showcases the power of pure JavaScript. The game is a great way to kill time and improve hand-eye coordination, making it an excellent choice for gamers of all ages.
 
-Additionally, the game includes pop-ups that inform the player when they have selected a letter that has already been guessed, as well as a pop-up message indicating that the game is over when the player has used all five guesses.
+## :clipboard: Stack Used
 
-Overall, this version of Hangman is a fun and challenging way to test your vocabulary and guessing skills. With its easy-to-use interface and engaging graphics, players of all ages are sure to enjoy this classic game.
-
-## :camera:Screenshots
-<div class="image-grid">
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/intro.png" alt="intro" width="410" height="250">
-
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/wrong-letter.png" alt="wrong enter letter" width="410" height="250">
-
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/message-popup.png" alt="popup-message" width="410" height="250">
-
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/game-lost.png" alt="game lost" width="410" height="250">
-
-<img src="https://raw.githubusercontent.com/shivam00005/Hangman/master/screenshots/win-game.png" alt="game win" width="410" height="250">
-</div>
+` HTML5 `
+` CSS3 `
+` Javascript `
+`
 
 
-## :information_desk_person:Demo
 
-Live link to play this game : https://shivam00005.github.io/Hangman/
+## :camera: Screenshots
 
-## :wrench:Installation
+<img src="https://raw.githubusercontent.com/shivam00005/ToDo.github.io/master/screenshots/home.png" alt="home page">
 
-❖ Local Installation:
+<img src="https://raw.githubusercontent.com/shivam00005/ToDo.github.io/master/screenshots/added-task.png" alt="task page" >
 
-To deploy this project run
+<img src="https://raw.githubusercontent.com/shivam00005/ToDo.github.io/master/screenshots/login.png" alt="login page" >
 
-```bash
-◉ Clone or download the project files from the repository to your local computer.
+<img src="https://raw.githubusercontent.com/shivam00005/ToDo.github.io/master/screenshots/register.png" alt="register page" >
 
-◉ Make sure you have a text editor and a web browser installed on your computer.
 
-◉ Open the project folder in your text editor.
 
-◉ Double-click on the index.html file to open it in your web browser.
 
-◉The game should load in your browser and you can start playing.
 
-```
-    
-    
-## :computer:Deployment
+## :information_desk_person: Demo
+
+Live link to visit Snake Game: https://shivam00005.github.io/snake_game/
+
+
+
+## :wrench: Deployment
 
 ❖ Live deployment:
 
@@ -70,6 +57,26 @@ To deploy this project run
 ```
 📢 Note: To deploy the game live, you will need a registered domain name, DNS settings configured properly and web hosting account setup. There are many options available for web hosting services such as shared hosting, VPS hosting or cloud hosting etc. Choose the one that suits your requirements and budget.
 
+
+## :satellite: Run Locally
+
+◉ Clone the project
+
+```bash
+  git clone https://github.com/shivam00005/snake_game/
+```
+
+◉ Make sure you have a text editor and a web browser installed on your computer.
+
+◉ Open the project folder in your text editor.
+
+◉ Double-click on the index.html file to open it in your web browser.
+
+◉ The game should load in your browser and you can start playing.
+
+```
+
+
 ## :email:Feedback
 
 If you have any feedback, please reach out to us at sharmn6395960@gmail.com
@@ -77,7 +84,6 @@ If you have any feedback, please reach out to us at sharmn6395960@gmail.com
 
 ## :scroll:License
 
-Copyright (c) 2021 Shivam Sharma
+Copyright (c) 2022 Shivam Sharma
 
-Licensed under the MIT License, available here: https://github.com/shivam00005/Hangman/blob/master/LICENSE
-
+Licensed under the MIT License, available here: https://github.com/shivam00005/tesla-clone/blob/main/LICENSE
